@@ -62,7 +62,7 @@
         <x:Boolean x:Key="IsPinned">False</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:ReadCsvFile Encoding="{x:Null}" DataTable="[transactionTable]" Delimitator="Comma" DisplayName="Read CSV" FilePath="C:\Users\admin\Desktop\GOOG.csv" sap:VirtualizedContainerService.HintSize="334,152" sap2010:WorkflowViewState.IdRef="ReadCsvFile_1" IncludeColumnNames="False" />
+    <ui:ReadCsvFile Encoding="{x:Null}" DataTable="[transactionTable]" Delimitator="Comma" DisplayName="Read CSV" FilePath="C:\Users\admin\Desktop\GOOG.csv" sap:VirtualizedContainerService.HintSize="334,152" sap2010:WorkflowViewState.IdRef="ReadCsvFile_1" />
     <Assign sap:VirtualizedContainerService.HintSize="334,60" sap2010:WorkflowViewState.IdRef="Assign_3">
       <Assign.To>
         <OutArgument x:TypeArguments="sd:DataTable">[data]</OutArgument>
