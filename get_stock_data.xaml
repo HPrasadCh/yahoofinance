@@ -71,7 +71,7 @@
         <InArgument x:TypeArguments="sd:DataTable">[transactionTable.AsEnumerable.Take(4).CopyToDataTable]</InArgument>
       </Assign.Value>
     </Assign>
-    <ui:WriteCsvFile Encoding="{x:Null}" AddHeaders="True" DataTable="[data]" Delimitator="Comma" DisplayName="Write CSV" FilePath="C:\Users\admin\Desktop\GOOG - Copy.csv" sap:VirtualizedContainerService.HintSize="334,152" sap2010:WorkflowViewState.IdRef="WriteCsvFile_1" />
+    <ui:WriteCsvFile Encoding="{x:Null}" AddHeaders="False" DataTable="[data]" Delimitator="Comma" DisplayName="Write CSV" FilePath="C:\Users\admin\Desktop\GOOG - Copy.csv" sap:VirtualizedContainerService.HintSize="334,152" sap2010:WorkflowViewState.IdRef="WriteCsvFile_1" />
     <ui:OutputDataTable DataTable="[data]" DisplayName="Output Data Table" sap:VirtualizedContainerService.HintSize="334,22" sap2010:WorkflowViewState.IdRef="OutputDataTable_3" Text="[filteredData]" />
   </Sequence>
 </Activity>
